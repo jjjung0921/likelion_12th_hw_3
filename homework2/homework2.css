@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+} 
+
+.container{
+    display:flex;
+    width: 800px;
+    height: 650px;
+    flex-direction: column;
+}
+
+.item{
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box{
+    overflow:hidden;
+    font-size: 5px;
+}
+
+#header{
+    height:5%;
+    flex-direction: column;
+    color:white;
+}
+
+#profile-box{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin:9px;
+}
+
+#profile{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#profile-id{
+    position:absolute;
+    margin-top:10px;
+    margin-left:40px;
+    float: left;
+}
+
+#more-info{
+    margin-top:10px;
+    margin-left:auto;
+    float: right;
+    margin-right:10px;
+}
+
+#main{  
+    height:60%;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#postbox{
+    display:flex;
+    height:100%;
+    width:auto;
+    overflow: hidden;
+}
+
+#post{
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    height:35%;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+#iconbox{
+    position:absolute;
+    margin-top:6px;
+    margin-left: 3px;
+    width:800px;
+}
+
+#bookmark{
+    position:absolute;
+    margin-left:87.5%
+}
+
+#explain{
+    font-size: 10px;
+    bottom:0;
+    margin-left:10px;
+}
+
+i{
+    margin-left: 5px;
+    display: inline;
+}
